@@ -16,10 +16,15 @@ def portScanner(host,port):
 def main():
     setdefaulttimeout(1)
     #设置需要扫描的端口
-    for p in range(1521,1522):
+    for p in range(79,81):
     #设置需要扫描的ip段
-        for d in range(1,245):
-            portScanner('192.1.50.'+ str(d),p)
+        for d in range(54,56):
+            # portScanner('192.1.50.'+ str(d),p)
+            portScanner('192.168.31.'+ str(d),p)
     print(len(ipList))
+    with open('ipTable.txt','w') as f:
+        for i in ipList:
+            f.write(i)
+
 if __name__ == '__main__':
     main()
