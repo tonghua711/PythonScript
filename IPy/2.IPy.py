@@ -7,3 +7,8 @@ ip = IP('192.168.10.20')
 print(ip.reverseNames())
 #ip类型，私有还是公有
 print(ip.iptype())
+print(IP('8.8.8.8').iptype())
+print(IP('8.8.8.8').int())
+print(IP('8.8.8.8').strHex())
+print(IP('8.8.8.8').strBin())
+
