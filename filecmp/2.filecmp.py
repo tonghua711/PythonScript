@@ -1,9 +1,11 @@
 #coding:utf-8
 
-import os,sys
+import os
+import sys
 import filecmp
 import re
 import shutil
+
 
 holderlist=[]
 
@@ -16,8 +18,7 @@ def compareme(dir1,dir2):
     [holderlist.append(os.path.abspath(os.path.join(dir1,x))) for x in diff_in_one]
     if len(dircomp.common_dirs) > 0:
         for item in dircomp.common_dirs:
-            compareme(os.path.abspath(os.path.join(dir1,item)), \
-            os.path.abspath(os.path.join(dir2,item)))
+            compareme(os.path.abspath(os.path.join(dir1,item)),os.path.abspath(os.path.join(dir2,item)))
         return holderlist
 
 def main():
@@ -27,13 +28,17 @@ def main():
     # else:
     #     print("Usage:",sys.argv[0],"datadir backupdir")
     #     sys.exit()
-    dir1='E:\\temp\\test\\d1'
-    dir2='E:\\temp\\test\\d2'
+    dir1='E:/temp/test/d1'
+    dir2=str('E:/temp/test/d2')
+    print(type(dir2))
+    # dir1 = dir1.split("/")
+    # dir2 = dir2.split("/")
+    # print(os.path.join(dir1))
     source_files = compareme(dir1,dir2)
     dir1=os.path.abspath(dir1)
 
-    # if not dir2.endswith('/'):dir2=dir2+'/'
-    if not dir2.endswith('\\'):dir2=dir2+'\\'
+    if not dir2.endswith('/'):dir2=dir2+'/'
+    # if not dir2.endswith('\\'):dir2=dir2+'\\'
 
     dir2=os.path.abspath(dir2)
     destination_files=[]
@@ -41,6 +46,8 @@ def main():
 
 
     for item in source_files:
+        print(type(dir1))
+        print(dir2)
         destination_dir=re.sub(dir1,dir2,item)
         destination_files.append(destination_dir)
         if os.path.isdir(item):

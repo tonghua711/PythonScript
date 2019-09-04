@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9f518c9-f894-4cf8-81c5-b05ecea3d536" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/IPy/1.IPy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IPy/2.IPy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dns/9.test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vagrant.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pycurl/1.simple.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dns/8.dns_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/dns/8.dns_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filecmp/2.filecmp.py" beforeDir="false" afterPath="$PROJECT_DIR$/filecmp/2.filecmp.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,46 +14,36 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/PythonScript$5_dns_py_resolver.coverage" NAME="5.dns_py_resolver Coverage Results" MODIFIED="1566945973602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dns" />
-    <SUITE FILE_PATH="coverage/PythonScript$1_IPy.coverage" NAME="1.IPy Coverage Results" MODIFIED="1567011330629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IPy" />
     <SUITE FILE_PATH="coverage/PythonScript$4_dns_tsigkeyring.coverage" NAME="4.dns_tsigkeyring Coverage Results" MODIFIED="1566945061100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dns" />
-    <SUITE FILE_PATH="coverage/PythonScript$2_IPy.coverage" NAME="2.IPy Coverage Results" MODIFIED="1567011568780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IPy" />
-    <SUITE FILE_PATH="coverage/PythonScript$2_dns_mx.coverage" NAME="2.dns_mx Coverage Results" MODIFIED="1566924317186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dns" />
+    <SUITE FILE_PATH="coverage/PythonScript$1_dircomp.coverage" NAME="1.dircomp Coverage Results" MODIFIED="1567610750225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/PythonScript$3_difflib.coverage" NAME="3.difflib Coverage Results" MODIFIED="1567033707822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/difflib" />
+    <SUITE FILE_PATH="coverage/PythonScript$4_IPy_deamo.coverage" NAME="4.IPy_deamo Coverage Results" MODIFIED="1567032005213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IPy" />
+    <SUITE FILE_PATH="coverage/PythonScript$1_difflib.coverage" NAME="1.difflib Coverage Results" MODIFIED="1567032580757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/difflib" />
     <SUITE FILE_PATH="coverage/PythonScript$1_dns.coverage" NAME="1.dns Coverage Results" MODIFIED="1566924037213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dns" />
     <SUITE FILE_PATH="coverage/PythonScript$3_dns_query.coverage" NAME="3.dns_query Coverage Results" MODIFIED="1566944715431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dns" />
     <SUITE FILE_PATH="coverage/PythonScript$7_dns_cname.coverage" NAME="7.dns_cname Coverage Results" MODIFIED="1566947441416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dns" />
     <SUITE FILE_PATH="coverage/PythonScript$6_dns_ns.coverage" NAME="6.dns_ns Coverage Results" MODIFIED="1566946489826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dns" />
+    <SUITE FILE_PATH="coverage/PythonScript$1_simple.coverage" NAME="1.simple Coverage Results" MODIFIED="1567614165057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pycurl" />
+    <SUITE FILE_PATH="coverage/PythonScript$5_dns_py_resolver.coverage" NAME="5.dns_py_resolver Coverage Results" MODIFIED="1566945973602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dns" />
+    <SUITE FILE_PATH="coverage/PythonScript$1_IPy.coverage" NAME="1.IPy Coverage Results" MODIFIED="1567011330629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IPy" />
+    <SUITE FILE_PATH="coverage/PythonScript$2_IPy.coverage" NAME="2.IPy Coverage Results" MODIFIED="1567031341327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IPy" />
+    <SUITE FILE_PATH="coverage/PythonScript$2_dns_mx.coverage" NAME="2.dns_mx Coverage Results" MODIFIED="1566924317186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dns" />
+    <SUITE FILE_PATH="coverage/PythonScript$1_filecmp.coverage" NAME="1.filecmp Coverage Results" MODIFIED="1567091161826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/filecmp" />
+    <SUITE FILE_PATH="coverage/PythonScript$2_difflib.coverage" NAME="2.difflib Coverage Results" MODIFIED="1567032954422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/difflib" />
+    <SUITE FILE_PATH="coverage/PythonScript$2_filecmp.coverage" NAME="2.filecmp Coverage Results" MODIFIED="1567353988183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/filecmp" />
     <SUITE FILE_PATH="coverage/PythonScript$8_dns_test.coverage" NAME="8.dns_test Coverage Results" MODIFIED="1567009140397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dns" />
     <SUITE FILE_PATH="coverage/PythonScript$9_test.coverage" NAME="9.test Coverage Results" MODIFIED="1567010372988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dns" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IPy/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="88">
-                <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IPy/1.IPy.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/IPy/2.IPy.py">
+        <entry file="file://$PROJECT_DIR$/pycurl/1.simple.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+            <state relative-caret-position="132">
+              <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="33" />
+              <folding>
+                <element signature="e#15#24#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,14 +77,24 @@
         <option value="$PROJECT_DIR$/IPy/README.md" />
         <option value="$PROJECT_DIR$/IPy/1.IPy.py" />
         <option value="$PROJECT_DIR$/IPy/2.IPy.py" />
+        <option value="$PROJECT_DIR$/IPy/3.IPy.py" />
+        <option value="$PROJECT_DIR$/IPy/4.IPy_deamo.py" />
+        <option value="$PROJECT_DIR$/difflib/1.difflib.py" />
+        <option value="$PROJECT_DIR$/difflib/2.difflib.py" />
+        <option value="$PROJECT_DIR$/difflib/3.difflib.py" />
+        <option value="$PROJECT_DIR$/difflib/BC3Key2.txt" />
+        <option value="$PROJECT_DIR$/filecmp/1.filecmp.py" />
+        <option value="$PROJECT_DIR$/filecmp/2.filecmp.py" />
+        <option value="$PROJECT_DIR$/test/1.dircomp.py" />
+        <option value="$PROJECT_DIR$/pycurl/1.simple.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1093" />
-    <option name="y" value="122" />
-    <option name="width" value="1120" />
-    <option name="height" value="880" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="815" />
+    <option name="y" value="98" />
+    <option name="width" value="1300" />
+    <option name="height" value="978" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -111,11 +109,6 @@
               <item name="PythonScript" type="b2602c69:ProjectViewProjectNode" />
               <item name="PythonScript" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="PythonScript" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonScript" type="462c0819:PsiDirectoryNode" />
-              <item name="IPy" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -129,6 +122,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\github\PythonScript\difflib" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -141,8 +139,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.2.IPy">
-    <configuration name="1.IPy" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.1.simple">
+    <configuration name="1.dircomp" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonScript" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -150,12 +148,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/IPy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/IPy/1.IPy.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/1.dircomp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -164,7 +162,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2.IPy" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="1.filecmp" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonScript" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -172,12 +170,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/IPy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/filecmp" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/IPy/2.IPy.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/filecmp/1.filecmp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -186,7 +184,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="7.dns_cname" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="1.simple" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonScript" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -194,12 +192,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dns" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pycurl" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dns/7.dns_cname.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pycurl/1.simple.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -208,7 +206,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="8.dns_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="2.filecmp" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonScript" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -216,12 +214,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dns" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/filecmp" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dns/8.dns_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/filecmp/2.filecmp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -230,7 +228,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="9.test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="3.difflib" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonScript" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -238,12 +236,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dns" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/difflib" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dns/9.test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/difflib/3.difflib.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -254,11 +252,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.2.IPy" />
-        <item itemvalue="Python.1.IPy" />
-        <item itemvalue="Python.9.test" />
-        <item itemvalue="Python.8.dns_test" />
-        <item itemvalue="Python.7.dns_cname" />
+        <item itemvalue="Python.1.simple" />
+        <item itemvalue="Python.1.dircomp" />
+        <item itemvalue="Python.2.filecmp" />
+        <item itemvalue="Python.1.filecmp" />
+        <item itemvalue="Python.3.difflib" />
       </list>
     </recent_temporary>
   </component>
@@ -275,12 +273,34 @@
       <workItem from="1566923820032" duration="848000" />
       <workItem from="1566944659868" duration="2841000" />
       <workItem from="1566947540216" duration="549000" />
-      <workItem from="1567008737096" duration="2893000" />
+      <workItem from="1567008737096" duration="3552000" />
+      <workItem from="1567030756690" duration="4026000" />
+      <workItem from="1567090616249" duration="1324000" />
+      <workItem from="1567117227686" duration="3536000" />
+      <workItem from="1567176370080" duration="5238000" />
+      <workItem from="1567353285296" duration="879000" />
+      <workItem from="1567526149334" duration="2094000" />
+      <workItem from="1567610503499" duration="3130000" />
     </task>
+    <task id="LOCAL-00001" summary="递交 练习模块代码，每日提交">
+      <created>1567011703007</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567011703007</updated>
+    </task>
+    <task id="LOCAL-00002" summary="递交 练习模块代码，每日提交">
+      <created>1567120736664</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1567120736664</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7131000" />
+    <option name="totallyTimeSpent" value="28017000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -292,25 +312,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <frame x="426" y="70" width="1040" height="782" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.117962465" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.197556" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3236994" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49285713" visible="true" weight="0.4345048" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32906765" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4988067" weight="0.32846716" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32906765" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4988067" weight="0.32846716" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="11" weight="0.32906765" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32906765" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50714284" side_tool="true" weight="0.29516128" />
+      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.4988067" weight="0.32846716" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49761337" weight="0.32664233" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -320,6 +340,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="递交 练习模块代码，每日提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="递交 练习模块代码，每日提交" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/dns/4.dns_tsigkeyring.py">
@@ -407,13 +431,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IPy/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="88">
-            <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/IPy/2.IPy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -424,10 +445,115 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IPy/2.IPy.py">
+    <entry file="file://$PROJECT_DIR$/IPy/3.IPy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IPy/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="88">
+            <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IPy/4.IPy_deamo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/difflib/copy_dir.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="86" column="26" lean-forward="true" selection-start-line="86" selection-start-column="26" selection-end-line="86" selection-end-column="26" />
+          <folding>
+            <element signature="e#131#140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/difflib/1.difflib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/difflib/2.difflib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/difflib/BC3Key1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/difflib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="1768" selection-start-line="1768" selection-end-line="1768" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/difflib/BC3Key2.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <caret line="7" column="57" lean-forward="true" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/difflib/3.difflib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="24" column="49" lean-forward="true" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+          <folding>
+            <element signature="e#15#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filecmp/1.filecmp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/1.dircomp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#15#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filecmp/2.filecmp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="42" column="21" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="21" />
+          <folding>
+            <element signature="e#15#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pycurl/1.simple.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="33" />
+          <folding>
+            <element signature="e#15#24#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
