@@ -2,11 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9f518c9-f894-4cf8-81c5-b05ecea3d536" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/smtplib/1.simple1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smtplib/2.simple2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smtplib/3.simple3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smtplib/4.simple4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/batch/ssh_thread.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv/readCSV.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv/readCSV2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os/os.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rrdtool/create.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smtplib/doc/week_report.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smtplib/img/Downloads_rate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smtplib/img/bytes_io.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smtplib/img/myisam_key_hit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smtplib/img/os_mem.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smtplib/img/os_swap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smtplib/img/weekly.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XlsxWriter/xlsxWriter_t1.py" beforeDir="false" afterPath="$PROJECT_DIR$/XlsxWriter/xlsxWriter_t1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,77 +24,60 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/PythonScript$4_dns_tsigkeyring.coverage" NAME="4.dns_tsigkeyring Coverage Results" MODIFIED="1566945061100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dns" />
     <SUITE FILE_PATH="coverage/PythonScript$1_dircomp.coverage" NAME="1.dircomp Coverage Results" MODIFIED="1567610750225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/PythonScript$3_difflib.coverage" NAME="3.difflib Coverage Results" MODIFIED="1567033707822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/difflib" />
-    <SUITE FILE_PATH="coverage/PythonScript$4_IPy_deamo.coverage" NAME="4.IPy_deamo Coverage Results" MODIFIED="1567032005213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IPy" />
     <SUITE FILE_PATH="coverage/PythonScript$1_difflib.coverage" NAME="1.difflib Coverage Results" MODIFIED="1567032580757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/difflib" />
-    <SUITE FILE_PATH="coverage/PythonScript$1_dns.coverage" NAME="1.dns Coverage Results" MODIFIED="1566924037213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dns" />
     <SUITE FILE_PATH="coverage/PythonScript$3_dns_query.coverage" NAME="3.dns_query Coverage Results" MODIFIED="1566944715431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dns" />
     <SUITE FILE_PATH="coverage/PythonScript$7_dns_cname.coverage" NAME="7.dns_cname Coverage Results" MODIFIED="1566947441416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dns" />
-    <SUITE FILE_PATH="coverage/PythonScript$6_dns_ns.coverage" NAME="6.dns_ns Coverage Results" MODIFIED="1566946489826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dns" />
+    <SUITE FILE_PATH="coverage/PythonScript$readCSV2.coverage" NAME="readCSV2 Coverage Results" MODIFIED="1578500009298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/csv" />
     <SUITE FILE_PATH="coverage/PythonScript$1_simple.coverage" NAME="1.simple Coverage Results" MODIFIED="1567614165057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pycurl" />
     <SUITE FILE_PATH="coverage/PythonScript$5_dns_py_resolver.coverage" NAME="5.dns_py_resolver Coverage Results" MODIFIED="1566945973602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dns" />
+    <SUITE FILE_PATH="coverage/PythonScript$2_dns_mx.coverage" NAME="2.dns_mx Coverage Results" MODIFIED="1566924317186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dns" />
+    <SUITE FILE_PATH="coverage/PythonScript$1_filecmp.coverage" NAME="1.filecmp Coverage Results" MODIFIED="1567091161826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/filecmp" />
+    <SUITE FILE_PATH="coverage/PythonScript$2_simple2.coverage" NAME="2.simple2 Coverage Results" MODIFIED="1567614990861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/smtplib" />
+    <SUITE FILE_PATH="coverage/PythonScript$xlsxWriter_t1.coverage" NAME="xlsxWriter_t1 Coverage Results" MODIFIED="1567616015252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/XlsxWriter" />
+    <SUITE FILE_PATH="coverage/PythonScript$2_difflib.coverage" NAME="2.difflib Coverage Results" MODIFIED="1567032954422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/difflib" />
+    <SUITE FILE_PATH="coverage/PythonScript$2_filecmp.coverage" NAME="2.filecmp Coverage Results" MODIFIED="1567353988183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/filecmp" />
+    <SUITE FILE_PATH="coverage/PythonScript$8_dns_test.coverage" NAME="8.dns_test Coverage Results" MODIFIED="1567009140397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dns" />
+    <SUITE FILE_PATH="coverage/PythonScript$os.coverage" NAME="os Coverage Results" MODIFIED="1578497129571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/os" />
+    <SUITE FILE_PATH="coverage/PythonScript$4_dns_tsigkeyring.coverage" NAME="4.dns_tsigkeyring Coverage Results" MODIFIED="1566945061100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dns" />
+    <SUITE FILE_PATH="coverage/PythonScript$3_difflib.coverage" NAME="3.difflib Coverage Results" MODIFIED="1567033707822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/difflib" />
+    <SUITE FILE_PATH="coverage/PythonScript$readCSV.coverage" NAME="readCSV Coverage Results" MODIFIED="1578498866399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/csv" />
+    <SUITE FILE_PATH="coverage/PythonScript$4_IPy_deamo.coverage" NAME="4.IPy_deamo Coverage Results" MODIFIED="1567032005213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IPy" />
+    <SUITE FILE_PATH="coverage/PythonScript$1_dns.coverage" NAME="1.dns Coverage Results" MODIFIED="1566924037213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dns" />
+    <SUITE FILE_PATH="coverage/PythonScript$6_dns_ns.coverage" NAME="6.dns_ns Coverage Results" MODIFIED="1566946489826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dns" />
     <SUITE FILE_PATH="coverage/PythonScript$1_IPy.coverage" NAME="1.IPy Coverage Results" MODIFIED="1567011330629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IPy" />
     <SUITE FILE_PATH="coverage/PythonScript$2_IPy.coverage" NAME="2.IPy Coverage Results" MODIFIED="1567031341327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IPy" />
     <SUITE FILE_PATH="coverage/PythonScript$4_simple4.coverage" NAME="4.simple4 Coverage Results" MODIFIED="1567615498013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/smtplib/img" />
     <SUITE FILE_PATH="coverage/PythonScript$3_simple3.coverage" NAME="3.simple3 Coverage Results" MODIFIED="1567615357302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/smtplib" />
-    <SUITE FILE_PATH="coverage/PythonScript$2_dns_mx.coverage" NAME="2.dns_mx Coverage Results" MODIFIED="1566924317186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dns" />
-    <SUITE FILE_PATH="coverage/PythonScript$1_filecmp.coverage" NAME="1.filecmp Coverage Results" MODIFIED="1567091161826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/filecmp" />
-    <SUITE FILE_PATH="coverage/PythonScript$2_simple2.coverage" NAME="2.simple2 Coverage Results" MODIFIED="1567614990861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/smtplib" />
-    <SUITE FILE_PATH="coverage/PythonScript$2_difflib.coverage" NAME="2.difflib Coverage Results" MODIFIED="1567032954422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/difflib" />
-    <SUITE FILE_PATH="coverage/PythonScript$2_filecmp.coverage" NAME="2.filecmp Coverage Results" MODIFIED="1567353988183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/filecmp" />
     <SUITE FILE_PATH="coverage/PythonScript$1_simple1.coverage" NAME="1.simple1 Coverage Results" MODIFIED="1567614961905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/smtplib" />
     <SUITE FILE_PATH="coverage/PythonScript$4_simple4__1_.coverage" NAME="4.simple4 (1) Coverage Results" MODIFIED="1567615672423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/smtplib" />
-    <SUITE FILE_PATH="coverage/PythonScript$8_dns_test.coverage" NAME="8.dns_test Coverage Results" MODIFIED="1567009140397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dns" />
     <SUITE FILE_PATH="coverage/PythonScript$9_test.coverage" NAME="9.test Coverage Results" MODIFIED="1567010372988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dns" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/smtplib/1.simple1.py">
+        <entry file="file://$PROJECT_DIR$/csv/readCSV.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
-              <folding>
-                <element signature="e#15#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/smtplib/2.simple2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="35" column="33" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="36" />
-              <folding>
-                <element signature="e#15#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/smtplib/3.simple3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="48" column="33" lean-forward="true" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="36" />
-              <folding>
-                <element signature="e#15#29#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="220">
+              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/smtplib/4.simple4.py">
+        <entry file="file://$PROJECT_DIR$/csv/readCSV2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
-              <folding>
-                <element signature="e#15#29#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="132">
+              <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/csv/python.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="25" selection-start-column="25" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -134,14 +126,21 @@
         <option value="$PROJECT_DIR$/smtplib/3.simple3.py" />
         <option value="$PROJECT_DIR$/smtplib/img/4.simple4.py" />
         <option value="$PROJECT_DIR$/smtplib/4.simple4.py" />
+        <option value="$PROJECT_DIR$/XlsxWriter/xlsxWriter_t1.py" />
+        <option value="$PROJECT_DIR$/rrdtool/create.py" />
+        <option value="$PROJECT_DIR$/batch/ssh_thread.py" />
+        <option value="$PROJECT_DIR$/os/os.py" />
+        <option value="$PROJECT_DIR$/csv/readCSV.py" />
+        <option value="$PROJECT_DIR$/csv/python.txt" />
+        <option value="$PROJECT_DIR$/csv/readCSV2.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1300" />
-    <option name="height" value="978" />
+    <option name="x" value="411" />
+    <option name="y" value="5" />
+    <option name="width" value="1383" />
+    <option name="height" value="894" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -159,13 +158,7 @@
             <path>
               <item name="PythonScript" type="b2602c69:ProjectViewProjectNode" />
               <item name="PythonScript" type="462c0819:PsiDirectoryNode" />
-              <item name="smtplib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PythonScript" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonScript" type="462c0819:PsiDirectoryNode" />
-              <item name="smtplib" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="csv" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -181,6 +174,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\github\PythonScript\smtplib" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\github\PythonScript\difflib" />
     </key>
@@ -197,73 +193,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.4.simple4 (1)">
-    <configuration name="1.simple1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PythonScript" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/smtplib" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/smtplib/1.simple1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="2.simple2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PythonScript" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/smtplib" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/smtplib/2.simple2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="3.simple3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PythonScript" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/smtplib" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/smtplib/3.simple3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.readCSV2">
     <configuration name="4.simple4 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonScript" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -286,7 +216,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="4.simple4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="os" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonScript" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -294,12 +224,78 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/smtplib/img" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/os" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\github\PythonScript\smtplib\4.simple4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/os/os.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="readCSV" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonScript" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/csv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/csv/readCSV.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="readCSV2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonScript" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/csv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/csv/readCSV2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="xlsxWriter_t1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonScript" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/XlsxWriter" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/XlsxWriter/xlsxWriter_t1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -310,11 +306,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.readCSV2" />
+        <item itemvalue="Python.readCSV" />
+        <item itemvalue="Python.os" />
+        <item itemvalue="Python.xlsxWriter_t1" />
         <item itemvalue="Python.4.simple4 (1)" />
-        <item itemvalue="Python.4.simple4" />
-        <item itemvalue="Python.3.simple3" />
-        <item itemvalue="Python.2.simple2" />
-        <item itemvalue="Python.1.simple1" />
       </list>
     </recent_temporary>
   </component>
@@ -338,7 +334,13 @@
       <workItem from="1567176370080" duration="5238000" />
       <workItem from="1567353285296" duration="879000" />
       <workItem from="1567526149334" duration="2094000" />
-      <workItem from="1567610503499" duration="4805000" />
+      <workItem from="1567610503499" duration="5148000" />
+      <workItem from="1567697907967" duration="599000" />
+      <workItem from="1568069379650" duration="510000" />
+      <workItem from="1568126412779" duration="696000" />
+      <workItem from="1571967086058" duration="2000" />
+      <workItem from="1571992669355" duration="9000" />
+      <workItem from="1578495128893" duration="4881000" />
     </task>
     <task id="LOCAL-00001" summary="递交 练习模块代码，每日提交">
       <created>1567011703007</created>
@@ -361,11 +363,18 @@
       <option name="project" value="LOCAL" />
       <updated>1567614179821</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="递交 smtplib 练习模块代码，每日提交">
+      <created>1567615727313</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1567615727313</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29692000" />
+    <option name="totallyTimeSpent" value="36732000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -380,12 +389,12 @@
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1300268" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14343163" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49285713" visible="true" weight="0.39306358" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49128687" visible="true" weight="0.44942197" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -393,7 +402,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4988067" weight="0.32846716" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50714284" side_tool="true" weight="0.29516128" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5087131" side_tool="true" visible="true" weight="0.44942197" />
       <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.4988067" weight="0.32846716" />
       <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49761337" weight="0.32664233" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -408,7 +417,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="递交 练习模块代码，每日提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="递交 练习模块代码，每日提交" />
+    <MESSAGE value="递交 smtplib 练习模块代码，每日提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="递交 smtplib 练习模块代码，每日提交" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/dns/4.dns_tsigkeyring.py">
@@ -622,10 +632,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smtplib/sendEmail.py">
+    <entry file="file://$PROJECT_DIR$/XlsxWriter/xlsxWriter_t1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66">
-          <caret line="31" column="14" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="15" />
+        <state relative-caret-position="550">
+          <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XlsxWriter/xlsxWriter_t2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-528" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jenkins/jenkins_add.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jenkins/jenkins_job.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-462" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rrdtool/create.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding>
+            <element signature="e#34#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/batch/ssh_thread.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
+          <folding>
+            <element signature="e#32#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/os/os.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smtplib/1.simple1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+          <folding>
+            <element signature="e#15#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smtplib/2.simple2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="35" column="33" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="36" />
+          <folding>
+            <element signature="e#15#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -639,33 +709,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smtplib/2.simple2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="35" column="33" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="36" />
-          <folding>
-            <element signature="e#15#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smtplib/1.simple1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
-          <folding>
-            <element signature="e#15#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/smtplib/4.simple4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+        <state relative-caret-position="235">
+          <caret line="40" column="23" lean-forward="true" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
           <folding>
             <element signature="e#15#29#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smtplib/sendEmail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="31" column="14" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv/python.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv/readCSV.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv/readCSV2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
         </state>
       </provider>
     </entry>
