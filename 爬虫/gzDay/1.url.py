@@ -18,6 +18,7 @@ def download2(url):
 
 def download3(url):
     response = urllib.request.urlopen(url)   #网页抽象为文件
+
     while True:
         line = response.readline()  #读取一行
         if not line:

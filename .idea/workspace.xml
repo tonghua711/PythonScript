@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9f518c9-f894-4cf8-81c5-b05ecea3d536" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/tonghua711.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csv/readCVS3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/gzDay/1.url.py" afterDir="false" />
+    <list default="true" id="d9f518c9-f894-4cf8-81c5-b05ecea3d536" name="Default Changelist" comment="递交 smtplib 练习模块代码，每日提交">
+      <change afterPath="$PROJECT_DIR$/爬虫/gzDay/httperror.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫/gzDay/1.url.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫/gzDay/1.url.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,16 +41,35 @@
     <SUITE FILE_PATH="coverage/PythonScript$3_simple3.coverage" NAME="3.simple3 Coverage Results" MODIFIED="1567615357302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/smtplib" />
     <SUITE FILE_PATH="coverage/PythonScript$1_simple1.coverage" NAME="1.simple1 Coverage Results" MODIFIED="1567614961905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/smtplib" />
     <SUITE FILE_PATH="coverage/PythonScript$4_simple4__1_.coverage" NAME="4.simple4 (1) Coverage Results" MODIFIED="1567615672423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/smtplib" />
-    <SUITE FILE_PATH="coverage/PythonScript$1_url.coverage" NAME="1.url Coverage Results" MODIFIED="1579107237561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫/gzDay" />
+    <SUITE FILE_PATH="coverage/PythonScript$1_url.coverage" NAME="1.url Coverage Results" MODIFIED="1579128303768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫/gzDay" />
     <SUITE FILE_PATH="coverage/PythonScript$9_test.coverage" NAME="9.test Coverage Results" MODIFIED="1567010372988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dns" />
+    <SUITE FILE_PATH="coverage/PythonScript$httperror.coverage" NAME="httperror Coverage Results" MODIFIED="1579129929245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫/gzDay" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/爬虫/gzDay/1.url.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+            <state relative-caret-position="85">
+              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/爬虫/gzDay/httperror.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/urllib/request.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="138" column="36" selection-start-line="138" selection-start-column="28" selection-end-line="138" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -109,14 +127,18 @@
         <option value="$PROJECT_DIR$/csv/readCSV2.py" />
         <option value="$PROJECT_DIR$/csv/readCVS3.py" />
         <option value="$PROJECT_DIR$/爬虫/gzDay/1.url.py" />
+        <option value="$PROJECT_DIR$/爬虫/gzDay/httperror.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-2" />
-    <option name="y" value="32" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="787" />
+    <option name="y" value="66" />
     <option name="width" value="1420" />
     <option name="height" value="905" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -134,6 +156,17 @@
               <item name="PythonScript" type="b2602c69:ProjectViewProjectNode" />
               <item name="PythonScript" type="462c0819:PsiDirectoryNode" />
               <item name="os" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonScript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonScript" type="462c0819:PsiDirectoryNode" />
+              <item name="爬虫" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonScript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonScript" type="462c0819:PsiDirectoryNode" />
+              <item name="爬虫" type="462c0819:PsiDirectoryNode" />
+              <item name="gzDay" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PythonScript" type="b2602c69:ProjectViewProjectNode" />
@@ -178,7 +211,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1.url">
+  <component name="RunManager" selected="Python.httperror">
     <configuration name="1.difflib" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonScript" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -267,7 +300,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="readCVS3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="httperror" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonScript" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -275,12 +308,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/csv" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫/gzDay" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/csv/readCVS3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫/gzDay/httperror.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -291,11 +324,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.httperror" />
         <item itemvalue="Python.1.url" />
         <item itemvalue="Python.3.difflib" />
         <item itemvalue="Python.2.difflib" />
         <item itemvalue="Python.1.difflib" />
-        <item itemvalue="Python.readCVS3" />
       </list>
     </recent_temporary>
   </component>
@@ -327,7 +360,8 @@
       <workItem from="1571992669355" duration="9000" />
       <workItem from="1578495128893" duration="5340000" />
       <workItem from="1578576195916" duration="1868000" />
-      <workItem from="1579104588127" duration="2641000" />
+      <workItem from="1579104588127" duration="2680000" />
+      <workItem from="1579128019741" duration="1915000" />
     </task>
     <task id="LOCAL-00001" summary="递交 练习模块代码，每日提交">
       <created>1567011703007</created>
@@ -364,11 +398,18 @@
       <option name="project" value="LOCAL" />
       <updated>1578500061229</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="递交 smtplib 练习模块代码，每日提交">
+      <created>1579107246759</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1579107246759</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41700000" />
+    <option name="totallyTimeSpent" value="43654000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -380,21 +421,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="26" width="1136" height="724" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20500928" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1508043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4899464" visible="true" weight="0.3697183" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4899464" visible="true" weight="0.3034682" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3996479" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4988067" weight="0.32846716" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49814472" weight="0.40106007" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49814472" weight="0.3996479" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.51005363" side_tool="true" weight="0.36705202" />
       <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.4988067" weight="0.3274648" />
@@ -781,10 +822,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/urllib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/爬虫/gzDay/1.url.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+        <state relative-caret-position="85">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/urllib/request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="138" column="36" selection-start-line="138" selection-start-column="28" selection-end-line="138" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/gzDay/httperror.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
         </state>
       </provider>
     </entry>
